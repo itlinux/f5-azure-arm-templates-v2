@@ -15,7 +15,7 @@
 			"value": "f5devcentral/f5-demo-app:1.0.1"
 		},
 		"runtimeConfig": {
-			"value": "https://github.com/F5Networks/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/runtime-init-conf-bigiq.yaml"
+			"value": "https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/runtime-init-conf-bigiq.yaml"
 		},
 		"restrictedSrcMgmtAddress": {
 			"value": ""
@@ -49,8 +49,8 @@
 				"application": "APP",
 				"cost": "COST",
 				"environment": "ENV",
-				"group": "GROUP",
-				"owner": "OWNER"
+				"group": "Sales",
+				"owner": "Remo Mattei"
 			}
 		}
 	}

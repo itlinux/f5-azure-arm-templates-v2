@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"templateBaseUrl": {
-			"value": "https://cdn.f5.com/product/cloudsolutions/"
+			"value": "https://github.com/itlinux/f5-azure-arm-templates-v2/"
 		},
 		"artifactLocation": {
 			"value": "f5-azure-arm-templates-v2/examples/"
@@ -21,7 +21,7 @@
 			"value": ""
 		},
 		"useAvailabilityZones": {
-			"value": true
+			"value": false
 		},
 		"tagValues": {
 			"value": {

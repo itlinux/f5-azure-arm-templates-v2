@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"templateBaseUrl": {
-			"defaultValue": "https://github.com/itlinux/f5-azure-arm-templates-v2/",
+			"defaultValue": "https://raw.githubusercontent.com/itlinux/",
 			"metadata": {
 				"description": "The publicly accessible URL where the linked ARM templates are located."
 			},
@@ -17,13 +17,14 @@
 			"type": "string"
 		},
 		"uniqueString": {
-			"defaultValue": "",
+			"defaultValue": "7x7ahdxa",
 			"metadata": {
 				"description": "A prefix that will be used to name template resources. Because some resources require globally unique names, we recommend using a unique value."
 			},
 			"type": "string"
 		},
 		"sshKey": {
+			"defaultValue": ""
 			"metadata": {
 				"description": "Supply the public key that will be used for SSH authentication to the BIG-IP and application virtual machines."
 			},
@@ -44,7 +45,7 @@
 			"type": "string"
 		},
 		"restrictedSrcMgmtAddress": {
-			"defaultValue": "",
+			"defaultValue": "*",
 			"metadata": {
 				"description": "When creating management security group, this field restricts management access to a specific network or address. Enter an IP address or address range in CIDR notation, or asterisk for all sources."
 			},
@@ -58,7 +59,7 @@
 			"type": "string"
 		},
 		"useAvailabilityZones": {
-			"defaultValue": true,
+			"defaultValue": false,
 			"metadata": {
 				"description": "This deployment can deploy resources into Azure Availability Zones (if the region supports it).  If that is not desired the input should be set 'No'. If the region does not support availability zones the input should be set to No."
 			},

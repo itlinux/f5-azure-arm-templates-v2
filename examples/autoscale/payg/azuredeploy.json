@@ -3,14 +3,14 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"templateBaseUrl": {
-			"defaultValue": "https://raw.githubusercontent.com/itlinux/",
+			"defaultValue": "https://raw.githubusercontent.com/itlinux/f5-azure-arm-templates-v2/",
 			"metadata": {
 				"description": "The publicly accessible URL where the linked ARM templates are located."
 			},
 			"type": "string"
 		},
 		"artifactLocation": {
-			"defaultValue": "f5-azure-arm-templates-v2/examples/",
+			"defaultValue": "master/examples/",
 			"metadata": {
 				"description": "The directory, relative to the templateBaseUrl, where the modules folder is located."
 			},

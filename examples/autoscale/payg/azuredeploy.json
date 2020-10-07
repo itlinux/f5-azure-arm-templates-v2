@@ -24,7 +24,7 @@
 			"type": "string"
 		},
 		"sshKey": {
-			"defaultValue": ""
+			"defaultValue": "",
 			"metadata": {
 				"description": "Supply the public key that will be used for SSH authentication to the BIG-IP and application virtual machines."
 			},

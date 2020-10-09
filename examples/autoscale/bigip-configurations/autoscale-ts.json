@@ -15,6 +15,10 @@
                 "locations": {
                     "system": {
                         "cpu": true,
+                        "virtualServers": true,
+                        "httpProfiles": true,
+                        "clientSslProfiles": true,
+                        "serverSslProfiles": true,
                         "networkInterfaces": {
                             "1.0": {
                                 "counters.bitsIn": true

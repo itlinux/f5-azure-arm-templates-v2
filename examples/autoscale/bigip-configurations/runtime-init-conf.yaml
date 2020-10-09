@@ -4,11 +4,11 @@ extension_packages:
   install_operations:
     - extensionHash: e7c9acb0ddfc9e9949c48b9a8de686c365764f28347aacf194a6de7e3ed183be
       extensionType: do
-      extensionVersion: 1.15.0
+      extensionVersion: 1.13.0
     - extensionHash: ba2db6e1c57d2ce6f0ca20876c820555ffc38dd0a714952b4266c4daf959d987
       extensionType: as3
-      extensionVersion: 3.22.0
-    - extensionHash: d52ad1ca23df1d9c81a9e3641fc25b593dd0c0a17cc3a90316067ae78e41a990
+      extensionVersion: 3.20.0
+    - extensionHash: 5b2012eea3fdcd56ab1faafb7379d84eb601ee0f44b83b2b1c67d3cbe9870a15
       extensionType: ts
       extensionVersion: 1.14.0
 extension_services:
@@ -18,10 +18,10 @@ extension_services:
       value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-do-payg.json'
     - extensionType: as3
       type: url
-      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-as3.json'
+      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-as3-remo.json'
     - extensionType: ts
       type: url
-      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-ts-remo.json'
+      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-ts.json'
 post_onboard_enabled: []
 pre_onboard_enabled: []
 runtime_parameters:

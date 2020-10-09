@@ -18,7 +18,7 @@ extension_services:
       value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-do-payg.json'
     - extensionType: as3
       type: url
-      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-as3-remo.json'
+      value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-as3.json'
     - extensionType: ts
       type: url
       value: 'https://github.com/itlinux/f5-azure-arm-templates-v2/blob/master/examples/autoscale/bigip-configurations/autoscale-ts.json'

@@ -8,9 +8,9 @@ extension_packages:
     - extensionHash: ba2db6e1c57d2ce6f0ca20876c820555ffc38dd0a714952b4266c4daf959d987
       extensionType: as3
       extensionVersion: 3.20.0
-    - extensionHash: d52ad1ca23df1d9c81a9e3641fc25b593dd0c0a17cc3a90316067ae78e41a990
+    - extensionHash: 5b2012eea3fdcd56ab1faafb7379d84eb601ee0f44b83b2b1c67d3cbe9870a15
       extensionType: ts
-      extensionVersion: 1.12.0
+      extensionVersion: 1.14.0
 extension_services:
   service_operations:
     - extensionType: do
